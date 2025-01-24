@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"  type='text/css'>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <title>Saeid Shahri - Nuts & Spices</title>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="marquee">
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+        </div>
+        <div class="marquee-delayed">
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+            <span>Free Shipping on all orders over 150 AED</span><i class="fa-solid fa-asterisk"></i>
+        </div>
+    </div>
+
+    <header>
+        <a href="#" class="logo"><img src="/public/logo.png" alt="Nuts & Spices Logo" class="logo" width="80px" height="90px"/></a>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="google_translate_element"></div>
+        <div class="burger-button" role="button" onclick="toggleMobileNav()">
+            <i class="fas fa-bars" style="color: black;"></i>
+        </div>
+        
+    </header>
+
+    <div id="mobile-nav" class="mobile-nav">
+        <nav class="mobile-nav-links">
+            <a href="#" onclick="toggleMobileNav()">Home</a>
+            <a href="#about" onclick="toggleMobileNav()">About</a>
+            <a href="#products" onclick="toggleMobileNav()">Products</a>
+            <a href="#contact" onclick="toggleMobileNav()">Contact</a>
+        </nav>
+    </div>
+    
+
+    <section class="hero">
+        <h1 class="hero-header">Welcome to Shahri's Nuts & Spices!</h1>
+        <p>Discover the finest selection of nuts, spices, and everything in between.</p>
+        <div class="button-container">
+            <a href="shop.html" class="button">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-header">About Us</h2>
+        <p class="section-text">Saeid Shahri's Nuts & Spices Trading is a family-owned business that has been providing the finest selection of nuts, spices, and everything in between for over 30 years. Our products are sourced from the best suppliers around the world and are guaranteed to be of the highest quality. Whether you're looking for a healthy snack or a unique ingredient for your next recipe, we have you covered.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2 class="section-header">Our Products</h2>
+        <div class="product-container">
+            <div class="product-Nuts">
+                <div class="product-overlay" role="button" onclick="handleProductClick('Dry Fruits & Nuts')">
+                    <h3 class="product-name">Dry Fruits & Nuts</h3>
+                    <!--<p class="product-description">Our nuts are sourced from the best suppliers around the world and are known for their freshness and flavor. They are perfect for snacking, baking, or adding to your favorite dishes.</p>-->
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div> 
+            </div>
+            <div class="product-Spices">
+                <div class="product-overlay" role="button" onclick="handleProductClick('Spices & Herbs')">
+                    <h3 class="product-name">Spices & Herbs</h3>
+                    <!--<p class="product-description">Our cashews are sourced from India and are known for their buttery flavor and creamy texture. They are perfect for snacking, baking, or adding to your favorite dishes.</p>-->
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="product-Coffee">
+                <div class="product-overlay" role="button" onclick="handleProductClick('Coffee & Tea')">
+                    <h3 class="product-name">Coffee & Tea</h3>
+                    <!--<p class="product-description">Our pistachios are sourced from Iran and are known for their vibrant color and rich flavor. They are perfect for snacking, baking, or adding to your favorite dishes.</p>
+                    -->
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="product-Sweets">
+                <div class="product-overlay" role="button" onclick="handleProductClick('Chocolate & Confectionary')">
+                    <h3 class="product-name">Chocolate & Confectionary</h3>
+                    <!--<p class="product-description">Our walnuts are sourced from California and are known for their earthy flavor and buttery texture. They are perfect for snacking, baking, or adding to your favorite dishes.</p>
+                    -->
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-us">
+            <h2 class="section-header">Contact Us</h2>
+            <p class="section-text">If you have any questions or would like to place an order, please feel free to contact us using the form below. We will get back to you as soon as possible.</p>
+            <form class="contact-form" action="submit.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </form>
+
+            <div class="socials">
+                <h2 class="section-header">Follow Us</h2>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+
+        </div>
+        <div class="contact-info">
+            <h2 class="section-header">Visit Us</h2>
+            <p class="section-text">Saeid Shahri's Nuts & Spices Trading<br>Al Ras, Deira<br>Dubai, UAE</p>
+            <img src="/public/map.png" alt="Map" class="map" width="100%" height="400px"/>
+            <h2 class="section-header">Opening Hours</h2>
+            <p class="section-text">Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+        </div>
+    </section>
+
+    
+
+
+
+    <footer class="footer">
+        <p>&copy; 2025 Saeid Shahri's Nuts & Spices Trading. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
