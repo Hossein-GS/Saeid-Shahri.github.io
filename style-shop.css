@@ -216,7 +216,7 @@ a {
     text-align: center;
     justify-content: center;
     padding: 300px 20px;
-    background: url('/public/ShopBanner.png') no-repeat center center/cover;
+    background: url('public/ShopBanner.png') no-repeat center center/cover;
     /*background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
     background-size: cover; /* Ensures the image covers the section */
     color: #7B3E29;
@@ -259,7 +259,7 @@ a {
     .hero {
         padding: 100px 20px;
         width: 85%;
-        background: url('/public/ShopBanner.png') no-repeat center center/cover;
+        background: url('public/ShopBanner.png') no-repeat center center/cover;
         /*background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
         background-size: cover; /* Ensures the image covers the section */
     }
@@ -302,7 +302,7 @@ a {
     padding-bottom: 20px;
     border-radius: 15px;
     width: 90%;
-    background: url('/public/bg4.jpg') no-repeat center center/cover;
+    background: url('public/bg4.jpg') no-repeat center center/cover;
     /*background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
     background-size: cover; /* Ensures the image covers the section */
 }
@@ -353,7 +353,7 @@ a {
 }
 
 .product-Nuts {
-    background: url('/public/nuts-mix.jpg') no-repeat center center/cover;
+    background: url('public/nuts-mix.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -364,7 +364,7 @@ a {
 }
 
 .product-Nuts-Pistachios {
-    background: url('/public/Pistachios.png') no-repeat center center/cover;
+    background: url('public/Pistachios.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -375,7 +375,7 @@ a {
 }
 
 .product-Nuts-Walnuts {
-    background: url('/public/Walnuts.png') no-repeat center center/cover;
+    background: url('public/Walnuts.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -386,7 +386,7 @@ a {
 }
 
 .product-Nuts-Almonds {
-    background: url('/public/almonds.png') no-repeat center center/cover;
+    background: url('public/almonds.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -397,7 +397,7 @@ a {
 }
 
 .product-Nuts-Cashews-Raw {
-    background: url('/public/cashew-raw.png') no-repeat center center/cover;
+    background: url('public/cashew-raw.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -408,7 +408,7 @@ a {
 }
 
 .product-Nuts-Cashews-Cheese {
-    background: url('/public/cashew-cheese.png') no-repeat center center/cover;
+    background: url('public/cashew-cheese.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -419,7 +419,7 @@ a {
 }
 
 .product-Nuts-Cashews-Spicy {
-    background: url('/public/cashew-spicy.png') no-repeat center center/cover;
+    background: url('public/cashew-spicy.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -430,7 +430,7 @@ a {
 }
 
 .product-Nuts-Sunflower-Seeds {
-    background: url('/public/sunflower.png') no-repeat center center/cover;
+    background: url('public/sunflower.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -441,7 +441,7 @@ a {
 }
 
 .product-Nuts-Egyptian-Seeds {
-    background: url('/public/egyptian-seed.png') no-repeat center center/cover;
+    background: url('public/egyptian-seed.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -452,7 +452,7 @@ a {
 }
 
 .product-Nuts-Peanut-Shelled {
-    background: url('/public/peanut-shelled.png') no-repeat center center/cover;
+    background: url('public/peanut-shelled.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -463,7 +463,7 @@ a {
 }
 
 .product-Spices {
-    background: url('/public/spices-mix.jpg') no-repeat center center/cover;
+    background: url('public/spices-mix.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -474,7 +474,7 @@ a {
 }
 
 .product-Spices-Cumin {
-    background: url('/public/cumin-powder.jpg') no-repeat center center/cover;
+    background: url('public/cumin-powder.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -485,7 +485,7 @@ a {
 }
 
 .product-Spices-Cinnamon {
-    background: url('/public/cinnamon.jpg') no-repeat center center/cover;
+    background: url('public/cinnamon.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -496,7 +496,7 @@ a {
 }
 
 .product-Spices-Turmeric {
-    background: url('/public/turmeric.jpg') no-repeat center center/cover;
+    background: url('public/turmeric.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -507,7 +507,7 @@ a {
 }
 
 .product-Spices-Coriander {
-    background: url('/public/coriander.png') no-repeat center center/cover;
+    background: url('public/coriander.png') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -518,7 +518,7 @@ a {
 }
 
 .product-Spices-Black-Pepper {
-    background: url('/public/black-pepper.jpg') no-repeat center center/cover;
+    background: url('public/black-pepper.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -529,7 +529,7 @@ a {
 }
 
 .product-Spices-Salt {
-    background: url('/public/salt.jpg') no-repeat center center/cover;
+    background: url('public/salt.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -540,7 +540,7 @@ a {
 }
 
 .product-Spices-Cloves {
-    background: url('/public/cloves.jpg') no-repeat center center/cover;
+    background: url('public/cloves.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -552,7 +552,7 @@ a {
 
 
 .product-Coffee {
-    background: url('/public/coffee-tea-mix.jpg') no-repeat center center/cover;
+    background: url('public/coffee-tea-mix.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -563,7 +563,7 @@ a {
 }
 
 .product-Coffee-Arabica {
-    background: url('/public/Arabic-Coffee.jpg') no-repeat center center/cover;
+    background: url('public/Arabic-Coffee.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -574,7 +574,7 @@ a {
 }
 
 .product-Coffee-Robusta {
-    background: url('/public/Robusta-Coffee.jpg') no-repeat center center/cover;
+    background: url('public/Robusta-Coffee.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -585,7 +585,7 @@ a {
 }
 
 .product-Coffee-Excelsa {
-    background: url('/public/Excelsa-Coffee.jpg') no-repeat center center/cover;
+    background: url('public/Excelsa-Coffee.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -596,7 +596,7 @@ a {
 }
 
 .product-Tea-Black {
-    background: url('/public/Black-Tea.jpg') no-repeat center center/cover;
+    background: url('public/Black-Tea.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -607,7 +607,7 @@ a {
 }
 
 .product-Tea-Oolong {
-    background: url('/public/Oolong-Tea.jpg') no-repeat center center/cover;
+    background: url('public/Oolong-Tea.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -618,7 +618,7 @@ a {
 }
 
 .product-Sweets {
-    background: url('/public/choco-sweets.jpg') no-repeat center center/cover;
+    background: url('public/choco-sweets.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -629,7 +629,7 @@ a {
 }
 
 .product-Dates-Bahri {
-    background: url('/public/bahri-dates.jpg') no-repeat center center/cover;
+    background: url('public/bahri-dates.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -640,7 +640,7 @@ a {
 }
 
 .product-Dates-Medjool {
-    background: url('/public/medjool-dates.jpg') no-repeat center center/cover;
+    background: url('public/medjool-dates.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -651,7 +651,7 @@ a {
 }
 
 .product-Sweets-Dubai-Chocolate {
-    background: url('/public/dubai-chocolate.jpg') no-repeat center center/cover;
+    background: url('public/dubai-chocolate.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -662,7 +662,7 @@ a {
 }
 
 .product-Sweets-Macarons {
-    background: url('/public/macarons.jpg') no-repeat center center/cover;
+    background: url('public/macarons.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;

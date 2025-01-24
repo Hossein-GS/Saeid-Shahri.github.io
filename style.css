@@ -217,7 +217,7 @@ a {
     text-align: center;
     justify-content: center;
     padding: 170px 20px;
-    background: url('/public/bg3.png') no-repeat center center/cover;
+    background: url('public/bg3.png') no-repeat center center/cover;
     /*background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
     background-size: cover; /* Ensures the image covers the section */
     color: #7B3E29;
@@ -260,7 +260,7 @@ a {
     .hero {
         padding: 100px 20px;
         width: 85%;
-        background: url('/public/bg2-flipped.jpg') no-repeat center center/cover;
+        background: url('public/bg2-flipped.jpg') no-repeat center center/cover;
         /*background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
         background-size: cover; /* Ensures the image covers the section */
     }
@@ -303,7 +303,7 @@ a {
     padding-bottom: 20px;
     border-radius: 15px;
     width: 90%;
-    background: url('/public/bg4.jpg') no-repeat center center/cover;
+    background: url('public/bg4.jpg') no-repeat center center/cover;
     /*background-attachment: fixed; /* Optional: Keeps background fixed while scrolling */
     background-size: cover; /* Ensures the image covers the section */
 }
@@ -370,7 +370,7 @@ a {
 }
 
 .product-Nuts {
-    background: url('/public/nuts-mix.jpg') no-repeat center center/cover;
+    background: url('public/nuts-mix.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -381,7 +381,7 @@ a {
 }
 
 .product-Spices {
-    background: url('/public/spices-mix.jpg') no-repeat center center/cover;
+    background: url('public/spices-mix.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -392,7 +392,7 @@ a {
 }
 
 .product-Coffee {
-    background: url('/public/coffee-tea-mix.jpg') no-repeat center center/cover;
+    background: url('public/coffee-tea-mix.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
@@ -403,7 +403,7 @@ a {
 }
 
 .product-Sweets {
-    background: url('/public/choco-sweets.jpg') no-repeat center center/cover;
+    background: url('public/choco-sweets.jpg') no-repeat center center/cover;
     display: flex;
     align-items: flex-end;
     margin: 20px;
