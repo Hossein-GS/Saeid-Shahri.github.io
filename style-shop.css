@@ -71,11 +71,37 @@ body {
     color: #FFF;
 }
 
+.right-side {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cart-icon {
+    background-color: transparent;
+}
+
+.cart-icon i {
+    font-size: 35px;
+    color: #FFF;
+    margin-right: 20px;
+    z-index: 100;
+}
+
+.cart-icon i:hover {
+    color: #7B3E29;
+}
+
 
 .burger-button {
     display: none;
     justify-content: center;
     align-items: center;
+}
+.burger-button i {
+    font-size: 35px;
+    color: #FFF;
+    margin-right: 20px;
 }
 .burger-button:hover {
     cursor: pointer;
