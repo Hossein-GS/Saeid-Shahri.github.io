@@ -6,20 +6,22 @@ function toggleMobileNav() {
 function handleProductClick(productName) {
     //alert(`You clicked on ${productName}`);
     // Add your redirection or additional logic here
-    if (productName === "Dry Fruits & Nuts") {
-        window.location.href = "shop.html#dry-fruits-nuts";
-    } 
-    else if (productName === "Spices & Herbs") {
-        window.location.href = "shop.html#spices-herbs";
-    } 
-    else if (productName === "Coffee & Tea") {
-        window.location.href = "shop.html#coffee-tea";
-    } 
-    else if (productName === "Chocolate & Confectionary") {
-        window.location.href = "shop.html#chocolate-confectionary";
-    } else {
-        alert("Product not found");
-    }
+    // if (productName === "Dry Fruits & Nuts") {
+    //     window.location.href = "shop.html#dry-fruits-nuts";
+    // } 
+    // else if (productName === "Spices & Herbs") {
+    //     window.location.href = "shop.html#spices-herbs";
+    // } 
+    // else if (productName === "Coffee & Tea") {
+    //     window.location.href = "shop.html#coffee-tea";
+    // } 
+    // else if (productName === "Chocolate & Confectionary") {
+    //     window.location.href = "shop.html#chocolate-confectionary";
+    // } else {
+    //     alert("Product not found");
+    // }
+
+    window.location.href = "ComingSoon.html";
 }
 
 
